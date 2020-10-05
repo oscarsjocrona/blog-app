@@ -1,0 +1,20 @@
+.NewPost {
+    margin: 0px auto;
+    /* width: auto; */
+    /* height: auto; */
+    text-align: center;
+    /* border: 1px solid black; */
+    background: #5fc34bcf;
+    box-sizing: border-box;
+    padding: 2px;
+    /* transform: scale(0.5,0.5); */
+}
+
+.NewPost button {
+    background: white;
+    width: 20%;
+    overflow: hidden;
+    outline: 0;
+    border: 1px 1px black;
+    position: relative;
+}

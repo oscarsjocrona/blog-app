@@ -1,0 +1,26 @@
+.Sidebar{
+    width: 20vw;
+    height: 100%;
+    background-color:black;
+    /* background-image: linear-gradient(#d1f5f3cf, #2ff4eacf); */
+    box-sizing: border-box;
+    
+    margin: 2px 2px 2px 2px;
+    
+    transition: width 0.8 ease-out;
+    z-index: 100;
+}
+
+.LinksList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Close {
+    Transform: translateX(-100%);
+}
+
+.Open {
+    Transform: translateX(0);
+}

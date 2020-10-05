@@ -1,0 +1,20 @@
+.InputInput {
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+    outline: 0;
+    font-size: x-large;
+    border-width: 0 0 1px;
+    border-color: #6f6d6d;
+    padding: 1px 0px 3px 0px;
+}
+
+.InputTextarea {    
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+    height: 200px;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #fb7850;
+}

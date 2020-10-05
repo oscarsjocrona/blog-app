@@ -1,0 +1,60 @@
+.Post {
+    /* border: 1px 1px solid black; */
+    padding: 7px;
+    box-shadow: 3px 3px black;
+    margin: 5px;
+    border: 3px solid black;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* max-width: 50vw; */
+}
+
+.Title {
+    flex: 15px;
+    display: flex;
+    background-color: #f8f7f7;
+    align-items: center;
+    justify-content: center;
+    
+    /* margin: 10px 0px 0px 10px;     */
+}
+
+.Content{
+    flex: 8;
+}
+
+.BarMenu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.MenuButton {
+    padding: 3px;
+    border: 1px solid #e7e4e4;
+    background-color: white;
+    margin: 5px;
+    
+}
+
+.MenuButton:hover {
+    background-color: #d5cdcd;
+    border: 1px solid #e7e4e4;
+}
+
+/* .MenuButton:visited{
+    background-color: yellow;
+} */
+
+.MenuButton:focus{
+    border: 1px solid #e7e4e4;
+    outline: 0;
+}
+
+.MenuButton:active{
+    background-color: wheat;
+}
