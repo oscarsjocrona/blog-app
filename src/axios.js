@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'https://blogg-app-oscarsjo.firebaseio.com/'
+    baseURL: 'https://blogapi20201007171304.azurewebsites.net'
 });
 
 export default instance;

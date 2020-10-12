@@ -50,7 +50,7 @@ export const newPostInit = () => {
 
 export const fetchPosts = () => {
     return dispatch => {
-        axios.get('/posts.json')
+        axios.get('api/posts')
             .then(response => {
                 console.log('No error!!');
                 const posts = [];
@@ -74,7 +74,7 @@ export const deletePost = (id) => {
     console.log(id);
     return dispatch => {
 
-        const deleteUrl = `/posts/${id}.json`;
+        const deleteUrl = `api/posts/${id}`;
         axios.delete(deleteUrl)
             .then(resp => {
                 console.log(resp);
@@ -94,7 +94,7 @@ export const addPost = (title, text) => {
     };
 
     return dispatch => {
-        axios.post('/posts.json', post)
+        axios.post('api/posts', post)
             .then(resp => {
                 dispatch(addPostSucceeded());
                 dispatch(fetchPosts());
